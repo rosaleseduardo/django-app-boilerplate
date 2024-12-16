@@ -1,0 +1,10 @@
+name: docker-sample-project
+
+services:
+  app: 
+    image: docker-image
+    container_name: docker-container
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/app

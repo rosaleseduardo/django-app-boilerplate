@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+start-server = "python manage.py runserver"
+generate-image = "docker build -t docker-image ."
+start-container = "docker compose up -d"
+
+[packages]
+django = "5.1.3"
+psycopg = "3.2"
+
+[dev-packages]
+ruff = "0.8.1"
+
+[requires]
+python_version = "3.13"
