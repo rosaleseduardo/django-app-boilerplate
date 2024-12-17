@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./assets/logo.webp" width="80%" />
+    <img src="./assets/logo.webp" width="70%" />
     <h1> Django Boilerplate App </h1>
 </div>
 
