@@ -2,8 +2,8 @@ name: docker-sample-project
 
 services:
   app: 
-    image: docker-image
-    container_name: docker-container
+    image: my-docker-image-name
+    container_name: my-docker-container-name
     ports:
       - "8001:8000"
     volumes:

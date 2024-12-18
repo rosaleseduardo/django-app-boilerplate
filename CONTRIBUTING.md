@@ -67,11 +67,13 @@ Thank you for considering contributing to our repository! Your participation hel
 6. Enter to the project's directory.
 7. Execute `pipenv shell` to activate the virtual environment.
 8. Execute `pipenv install` to install the dependencies.
-9. Execute `pipenv run start-server` to start the app.
+9. Execute `pipenv run migrate` or `pipenv run make-migrations`, depending on the
+   case.
+10. Execute `pipenv run start-server` to start the app.
 
 #### General Knowledge:
 
-- Execute `exit` to deactivate the virtual environment.
+- Execute `deactivate` to deactivate the pipenv environment.
 
 ## Development Tooling
 

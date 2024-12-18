@@ -6,10 +6,10 @@ name = "pypi"
 [scripts]
 start-server = "python manage.py runserver"
 migrate = "python manage.py migrate"
-makemigrations = "python manage.py makemigrations"
+make-migrations = "python manage.py makemigrations"
 create-superuser = "python manage.py createsuperuser"
-generate-image = "docker build -t docker-image ."
-start-container = "docker compose up -d"
+generate-docker-image = "docker build -t my-docker-image-name ."
+start-docker-container = "docker compose up -d"
 
 [packages]
 django = "5.1.3"
