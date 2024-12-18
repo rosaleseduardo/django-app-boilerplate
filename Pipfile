@@ -5,6 +5,9 @@ name = "pypi"
 
 [scripts]
 start-server = "python manage.py runserver"
+migrate = "python manage.py migrate"
+makemigrations = "python manage.py makemigrations"
+create-superuser = "python manage.py createsuperuser"
 generate-image = "docker build -t docker-image ."
 start-container = "docker compose up -d"
 
